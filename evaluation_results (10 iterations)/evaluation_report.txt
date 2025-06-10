@@ -1,0 +1,56 @@
+============================================================
+EMOTION RECOGNITION MODEL EVALUATION REPORT
+============================================================
+
+Report Generated: 2025-06-10 19:41:47
+Model Path: emotion_model_v1.pkl
+
+BASIC METRICS
+----------------------------------------
+Accuracy: 0.4076
+Precision (weighted): 0.4121
+Recall (weighted): 0.4076
+F1-Score (weighted): 0.3960
+Prediction Time per Sample: 0.06 ms
+
+PER-CLASS METRICS
+----------------------------------------
+  Emotion  Precision   Recall  F1-Score
+    angry   0.368782 0.224426  0.279040
+disgusted   0.744681 0.315315  0.443038
+  fearful   0.409091 0.272461  0.327081
+    happy   0.408908 0.631342  0.496344
+  neutral   0.315646 0.376318  0.343322
+      sad   0.394044 0.275862  0.324528
+surprised   0.598214 0.564380  0.580805
+
+CROSS-VALIDATION RESULTS
+----------------------------------------
+Mean CV Score: 0.3332
+Std Dev: 0.0079
+
+CONFIDENCE ANALYSIS
+----------------------------------------
+Mean Confidence (Correct): 0.5187
+Mean Confidence (Incorrect): 0.3584
+
+PCA ANALYSIS
+----------------------------------------
+Components for 95% variance: 1
+Total variance explained: 0.7762
+
+DETAILED CLASSIFICATION REPORT
+----------------------------------------
+              precision    recall  f1-score   support
+
+       angry       0.37      0.22      0.28       958
+   disgusted       0.74      0.32      0.44       111
+     fearful       0.41      0.27      0.33      1024
+       happy       0.41      0.63      0.50      1774
+     neutral       0.32      0.38      0.34      1233
+         sad       0.39      0.28      0.32      1247
+   surprised       0.60      0.56      0.58       831
+
+    accuracy                           0.41      7178
+   macro avg       0.46      0.38      0.40      7178
+weighted avg       0.41      0.41      0.40      7178
