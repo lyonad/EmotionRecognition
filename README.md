@@ -4,3 +4,7 @@ This project develops a real-time emotion recognition system using Python, apply
 Dataset: https://www.kaggle.com/datasets/ananthu017/emotion-detection-fer
 
 Reference: https://github.com/atulapra/Emotion-detection
+
+Change this part of the code with the dataset directory to run the program:
+train_dir = r'C:\Users\LyonA\Downloads\archive\train'
+test_dir = r'C:\Users\LyonA\Downloads\archive\test'
